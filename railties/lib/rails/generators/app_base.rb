@@ -1,11 +1,11 @@
 require 'fileutils'
-require 'digest/md5'
-require 'active_support/core_ext/string/strip'
+# require 'digest/md5'
+# require 'active_support/core_ext/string/strip'
 require 'rails/version' unless defined?(Rails::VERSION)
-require 'open-uri'
-require 'uri'
+# require 'open-uri'
+# require 'uri'
 require 'rails/generators'
-require 'active_support/core_ext/array/extract_options'
+# require 'active_support/core_ext/array/extract_options'
 
 module Rails
   module Generators
